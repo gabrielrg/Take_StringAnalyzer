@@ -9,21 +9,22 @@ A métrica de distãncia de strings usada aqui é conhecida como distância de e
 Abaixo um exemplo do funcionamento da classe:
 
 
-string_analyzer = StringAnalysis("Ola, esse codigo foi gerado como parte da avaliacao tecnica da take. Meu nome e gabriel resende goncalves e estou terminando o doutorado na UFMG. Minhas principais areas de pesquisa sao aprendizagem de maquina ou inteligencia artificial, reconhecimento de padroes visuais e visao computacional. Tenho 29 anos e moro em Belo Horizonte")
+- string_analyzer = StringAnalysis("Ola, esse codigo foi gerado como parte da avaliacao tecnica da take. Meu nome e gabriel resende goncalves e estou terminando o doutorado na UFMG. Minhas principais areas de pesquisa sao aprendizagem de maquina ou inteligencia artificial, reconhecimento de padroes visuais e visao computacional. Tenho 29 anos e moro em Belo Horizonte")
 
-print(string_analyzer.get_most_similar_word("Guilherme"))
-print(string_analyzer.get_most_similar_word("Took"))
-print(string_analyzer.get_most_similar_word("Ei"))
-print(string_analyzer.get_most_similar_word("programando"))
-print(string_analyzer.get_most_similar_word("50"))
-print(string_analyzer.get_most_similar_word("Feio"))
-print(string_analyzer.get_most_similar_word("artificial"))
+- print(string_analyzer.get_most_similar_word("Guilherme"))
+- print(string_analyzer.get_most_similar_word("Took"))
+- print(string_analyzer.get_most_similar_word("Ei"))
+- print(string_analyzer.get_most_similar_word("programando"))
+- print(string_analyzer.get_most_similar_word("50"))
+- print(string_analyzer.get_most_similar_word("Feio"))
+- print(string_analyzer.get_most_similar_word("artificial"))
 
 Output:
-minhas
-ola
-e
-doutorado
-29
-belo
-artificial
+- minhas
+- ola
+- ola
+- e
+- doutorado
+- 29
+- belo
+- artificial
